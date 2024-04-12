@@ -33,6 +33,7 @@ public class AddPersonTest {
         assertEquals("Amanda", person.getName());
         assertEquals("12345678", person.getId());
         assertEquals("house", person.getAddress().getComplement());
+        assertEquals("SP", person.getAddress().getState());
 
     }
 
