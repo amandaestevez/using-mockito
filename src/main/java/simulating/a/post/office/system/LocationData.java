@@ -1,5 +1,6 @@
 package simulating.a.post.office.system;
 
+
 public class LocationData {
 
     private String state;

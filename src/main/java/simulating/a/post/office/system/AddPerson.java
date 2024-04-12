@@ -1,8 +1,10 @@
 package simulating.a.post.office.system;
 
+
 //This line imports the LocalDate class from the java.time library.
 //The LocalDate class is used to work with dates.
 import java.time.LocalDate;
+
 
 //This line defines a public class named AddPerson.
 //"Public" means that this class can be accessed by other classes.
@@ -30,7 +32,8 @@ public class AddPerson {
          // This line calls the postOfficeApi object's getDataFromZipCode method to retrieve location data based on the zipcode.
          LocationData locationData = postOfficeApi.getDataFromZipCode(zipcode);
          // This line calls the person object's addLocationData method to set the address information retrieved from the zipcode.
-        person.addsAddressData(locationData);
+        person.addsLocationData(locationData);
         return person;
+         }
      }
-}
+

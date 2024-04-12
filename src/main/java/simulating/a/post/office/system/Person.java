@@ -34,7 +34,7 @@ public class Person {
     // This line defines a public method named addLocationData.
     // The public method takes a LocationData object as a parameter.
     // This method sets the address variable of the Person object to the LocationData object.
-    public void addLocationData (LocationData locationData) {
+    public void addsLocationData(LocationData locationData) {
         this.address = locationData;
     }
 
@@ -57,7 +57,7 @@ public class Person {
 
     //The following method calculates the difference between the birthday and the current date.
     //It then returns a boolean value that confirms if the person in older than 18.
-    public boolean isAnAdult () {
-        return ChronoUnit.YEARS.between(this.birthday, LocalDate.now()) > 18L;
+    public boolean isAnAdult() {
+        return ChronoUnit.YEARS.between(this.birthday, LocalDate.now()) >18;
     }
 }
