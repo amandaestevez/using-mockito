@@ -33,6 +33,7 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+        <!--  Mockito core doesn't allow to test static methods. Use Mockito inline for that. -->
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
