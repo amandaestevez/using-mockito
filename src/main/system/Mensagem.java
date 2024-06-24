@@ -1,4 +1,4 @@
-package simulating.a.post.office.system;
+package main.system;
 
 import java.util.UUID;
 

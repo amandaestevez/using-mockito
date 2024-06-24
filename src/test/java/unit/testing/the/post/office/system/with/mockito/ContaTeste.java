@@ -1,12 +1,12 @@
 package unit.testing.the.post.office.system.with.mockito;
 
+import main.system.Conta;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InOrder;
 import org.mockito.Mockito;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
-import simulating.a.post.office.system.Conta;
 
 @ExtendWith(MockitoExtension.class)
 public class ContaTeste {

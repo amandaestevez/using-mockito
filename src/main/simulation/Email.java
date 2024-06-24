@@ -1,4 +1,4 @@
-package email.system.simulation; //still missing the classes "Plataforma de Envio" and "ServicoEnvioEmail"
+package main.simulation;
 
 public class Email {
 

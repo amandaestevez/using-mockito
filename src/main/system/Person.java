@@ -1,12 +1,8 @@
-package simulating.a.post.office.system;
-
-//importing the LocalDate class from the java.time library
+package main.system;//importing the LocalDate class from the java.time library
 //It allows us to work with dates
-import java.time.LocalDate;
 
-//importing the ChronoUnit class from the java.time.temporal library
-//used to work with spans of time between dates
-import java.time.temporal.ChronoUnit; 
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 //this line defines a public class named Person.
 //Public means it can be accessed by other classes.

@@ -1,6 +1,10 @@
 package unit.testing.the.post.office.system.with.mockito;
 
 
+import main.system.AddPerson;
+import main.system.LocationData;
+import main.system.Person;
+import main.system.PostOfficeApi;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,16 +12,11 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import simulating.a.post.office.system.AddPerson;
-import simulating.a.post.office.system.LocationData;
-import simulating.a.post.office.system.Person;
-import simulating.a.post.office.system.PostOfficeApi;
 
-import javax.management.RuntimeErrorException;
 import java.time.LocalDate;
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.anyString;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.anyString;
 @ExtendWith(MockitoExtension.class)
 public class AddPersonTest {
 

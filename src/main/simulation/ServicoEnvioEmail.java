@@ -1,6 +1,4 @@
-package email.system.simulation;
-
-/*Line 06: The class "ServicoEnvioEmail" contains a private variable "plataforma".
+package main.simulation;/*Line 06: The class "ServicoEnvioEmail" contains a private variable "plataforma".
 *This variable will be used to interact with the email sending platform.*/
 
 public class ServicoEnvioEmail {

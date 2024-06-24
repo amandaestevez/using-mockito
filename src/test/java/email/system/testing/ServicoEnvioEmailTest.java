@@ -1,18 +1,19 @@
 package email.system.testing;
 
-import email.system.simulation.Email;
-import email.system.simulation.Formato;
-import email.system.simulation.PlataformaDeEnvio;
-import email.system.simulation.ServicoEnvioEmail;
+import main.simulation.Email;
+import main.simulation.Formato;
+import main.simulation.PlataformaDeEnvio;
+import main.simulation.ServicoEnvioEmail;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.*;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+
 //Lines 14-15:Creates a public class and calls the @ExtendWith annotation in JUnit
 @ExtendWith(MockitoExtension.class)
-public class ServicoEnvioEmailTeste {
+public class ServicoEnvioEmailTest {
 
     //Lines 19-20: Inserts the instantiated class as a mock
     //This allows us to test the code without using its dependencies

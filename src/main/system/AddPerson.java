@@ -1,5 +1,4 @@
-package simulating.a.post.office.system;
-
+package main.system;
 
 //This line imports the LocalDate class from the java.time library.
 //The LocalDate class is used to work with dates.

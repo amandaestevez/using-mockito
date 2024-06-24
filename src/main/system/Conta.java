@@ -1,4 +1,4 @@
-package simulating.a.post.office.system;
+package main.system;
 
 //This class simulates a bank account
 //Lines 05-06 create a public class called "Conta" which stores a variable "saldo".
