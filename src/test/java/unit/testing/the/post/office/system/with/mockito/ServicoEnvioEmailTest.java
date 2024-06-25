@@ -1,4 +1,4 @@
-package test.java.email.system.testing;
+package unit.testing.the.post.office.system.with.mockito;
 
 
 import main.simulation.Email;
